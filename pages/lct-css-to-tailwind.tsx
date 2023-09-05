@@ -177,7 +177,7 @@ export default function CssToTailwind3({ defaultSettings }) {
     }
 
     try {
-      config["tailwindConfig"] = getWindiConfig();
+      config["tailwindConfig"] = getWindiConfig() as any;
       console.log(evalConfig(rawSettings.tailwindConfig), "<<<<<<<<<");
     } catch (e) {
       toaster.danger(
@@ -236,8 +236,8 @@ export default function CssToTailwind3({ defaultSettings }) {
       resultLanguage="css"
       settings={rawSettings}
       editorProps={{
-        settingElement: ({ open, toggle }) => {
-          // return false;
+        settingElement: () => {
+          return <></>;
           // return (
           //   <CssToTailwindSettings
           //     key={`${rawSettings.tailwindConfig}${rawSettings.remInPx}`}

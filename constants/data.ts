@@ -171,10 +171,24 @@ export const css3 = `:root {
 export const lctCss3 = `
 /* copy codesign/figema css代码 进入直接编译*/
 .css {
-  padding: 0.875em 256px;
+  padding: 64rpx 256px;
   margin-left: 16px;
   text-align: center;
   font-size: 12px;
+  color: rgba(0,0,0,0.2);
+}
+.test {
+  color: rgba(0,0,0,0.65);
+  line-height: 64px;
+  font-size: 48px;
+}
+.test1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test2 {
+  border-radius: 4rpx;
 }
 `;
 

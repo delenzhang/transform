@@ -1,0 +1,4 @@
+[submodule "lctfe-client-platform"]
+	path = lctfe-client-platform
+	url = git@git.woa.com:fmp/lctfe-client-platform.git
+	branch = main

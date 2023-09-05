@@ -39,6 +39,20 @@ const config = {
 
     config.output.webassemblyModuleFilename = "static/wasm/[modulehash].wasm";
 
+    // config.module.rules.push({
+    //   test: /\.mjs$/,
+    //   include: /node_modules/,
+    //   type: 'javascript/auto',
+    //   use: {
+    //     loader: 'babel-loader',
+    //     options: {
+    //       presets: ['@babel/preset-env'],
+    //     },
+    //   },
+    // });
+
+    // config.resolve.extensions.push('.mjs');
+
     return config;
   }
 };

@@ -204,9 +204,9 @@ export const categorizedRoutes = [
       },
       {
         label: "to TailwindCSS",
-        path: "/css-to-tailwind",
+        path: "/lct-css-to-tailwind",
         packageUrl: "https://github.com/Jackardios/css-to-tailwindcss",
-        packageName: "css-to-tailwindcss"
+        packageName: "css-to-tailwindcss-lct"
       }
     ]
   },

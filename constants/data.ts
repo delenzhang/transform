@@ -168,6 +168,15 @@ export const css3 = `:root {
   }
 }
 `;
+export const lctCss3 = `
+/* copy codesign/figema css代码 进入直接编译*/
+.css {
+  padding: 0.875em 256px;
+  margin-left: 16px;
+  text-align: center;
+  font-size: 12px;
+}
+`;
 
 export const javascript = `const container = css({
   flex: 1,

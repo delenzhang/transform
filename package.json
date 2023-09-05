@@ -18,8 +18,10 @@
     "node": "16.x"
   },
   "dependencies": {
+    "@babel/core": "^7.22.15",
     "@babel/plugin-transform-flow-strip-types": "^7.16.0",
     "@babel/plugin-transform-typescript": "^7.16.1",
+    "@babel/preset-env": "^7.22.15",
     "@babel/standalone": "^7.14.7",
     "@graphql-codegen/core": "^1.17.10",
     "@graphql-codegen/flow": "^1.19.3",
@@ -50,6 +52,7 @@
     "autoprefixer": "^10.2.6",
     "autoprefixer9": "npm:autoprefixer@9.x.x",
     "axios": "^0.21.1",
+    "babel-loader": "^9.1.3",
     "babel-plugin-json-to-proptypes": "^0.1.0",
     "babel-plugin-object-styles-to-template": "^0.2.2",
     "babel-standalone": "^6.26.0",
@@ -97,6 +100,7 @@
     "ts-json-schema-generator": "^0.93.0",
     "ts-to-zod": "^1.11.0",
     "typescript": "4.3.4",
+    "windicss": "^3.5.6",
     "xml-js": "^1.6.11",
     "yaml": "^1.10.2"
   },
